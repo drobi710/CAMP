@@ -45,5 +45,7 @@
     ]
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/drobi710/CAMP.git",
+  "author": "Danielle Robitshek <drobi710@gmail.com>"
 }

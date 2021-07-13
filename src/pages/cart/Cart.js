@@ -31,12 +31,12 @@ export class Cart extends Component {
                 <p>{item.description}</p>
                 <p>{item.content}</p>
                 <div className={styles.amount}>
-                  <button className={styles.count} onClick={() => reduction(item._id)}>
+                  <button className="count" onClick={() => reduction(item._id)}>
                     {" "}
                     -{" "}
                   </button>
                   <span>{item.count}</span>
-                  <button className={styles.count} onClick={() => increase(item._id)}>
+                  <button className="count" onClick={() => increase(item._id)}>
                     {" "}
                     +{" "}
                   </button>
