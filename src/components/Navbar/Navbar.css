@@ -90,9 +90,7 @@ i:hover {
     position: relative;
   }
 
-  .buttons {
-    display: none;
-  }
+
 
   .nav-menu {
     display: flex;
@@ -169,9 +167,6 @@ i:hover {
     transition: 250ms;
   }
 
-  Button {
-    display: none;
-  }
 }
 
 span {

@@ -29,13 +29,13 @@ export class Cart extends Component {
                 </div>
 
                 <p>{item.description}</p>
-                <p>{item.content}</p>
+                <p>color: {item.content}</p>
                 <div className={styles.amount}>
                   <button className="count" onClick={() => reduction(item._id)}>
                     {" "}
                     -{" "}
                   </button>
-                  <span>{item.count}</span>
+                  <span id="count">{item.count}</span>
                   <button className="count" onClick={() => increase(item._id)}>
                     {" "}
                     +{" "}

@@ -33,7 +33,7 @@ function MainComponent() {
             <Redirect to="/home" />
           </Switch>
           {/* <Section /> */}
-          <FooterComponent />
+          {/* <FooterComponent /> */}
         </Router>
       </div>
     </DataProvider>
