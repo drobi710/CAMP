@@ -5,7 +5,7 @@
   background-position: center;
   text-align: center;
   position: relative;
-  bottom: 6.5rem;
+
   z-index: -1;
 }
 
@@ -21,7 +21,7 @@
   font-family: Big Shoulders Display, sans-serif;
   font-size: 4rem;
   color: white;
-  top: 40%;
+  top: 30%;
 }
 
 
@@ -30,7 +30,7 @@
   position: relative;
   font-family: BenchNine, sans-serif;
   color: white;
-  top: 50%;
+  top: 40%;
   z-index: 100;
 }
 
@@ -40,7 +40,7 @@
 .arrow {
   position: relative;
   color: white;
-  top: 50%;
+  top: 35%;
   font-size: 3rem;
 }
 
