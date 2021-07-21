@@ -12,7 +12,8 @@ function AboutComponent() {
             className={cx(
               globalStyles.col,
               globalStyles["h-100"],
-              globalStyles["p-5"]
+              globalStyles["p-5"],
+              globalStyles["col-md-6"]
             )}
             id={styles.about_text}
           >
@@ -20,12 +21,10 @@ function AboutComponent() {
             <p className={globalStyles["text-light"]}>
               We are a diverse group, spread out along the East Coast of the US.
               We are all enrolled in the Nucamp Full Stack Bootcamp. We have
-              decided to take o the task of creating a camping E-Commerce website
-              using React. We plan on taking the project and using Node, Express,
-              and Mongo DB for the back-end. Cheers!
+              decided to take on the task of creating a camping E-Commerce website
+              using React. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in hendrerit turpis. Sed in metus condimentum metus ultricies pellentesque. Maecenas tempus, nisl convallis finibus rutrum, metus arcu gravida nulla, eu luctus libero dui ac risus. Curabitur imperdiet dolor non bibendum tincidunt. Curabitur porttitor purus at velit elementum, id luctus est porttitor. Nunc ut ex nec risus volutpat euismod. Cras blandit condimentum tellus feugiat bibendum. Nullam bibendum commodo metus.
             </p>
           </div>
-          <div className={globalStyles.col}></div>
         </div>
       </div>
     );
