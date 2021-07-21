@@ -23,15 +23,15 @@ export const MenuItems = [
         url: 'contact',
         cName: 'nav-links'
     },
-    {
-        title: 'SIGN IN',
-        url: '/sign-in',
-        cName: 'nav-links-mobile'
-    },
+    // {
+    //     title: 'SIGN IN',
+    //     url: '/sign-in',
+    //     cName: 'nav-links-mobile'
+    // },
 
-        {
-        title: 'CART',
-        url: '/cart',
-        cName: 'nav-links-mobile'
-    },
+    //     {
+    //     title: 'CART',
+    //     url: '/cart',
+    //     cName: 'nav-links-mobile'
+    // },
 ]
